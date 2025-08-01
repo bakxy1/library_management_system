@@ -1,0 +1,43 @@
+classDiagram
+    direction LR
+    class User
+    <<interface>> User
+        User: + name
+        User: + borrowed_books
+
+        User: + get_user_info()
+        User: + borrow_book(book Book)
+        User: + return_book(book Book)
+    
+    class Member
+        Member: + name
+        Member: + borrowed_books
+
+        Member: + borrow_book(book Book)
+        Member: + return_book(book Book)
+    
+    class Librarian
+        Librarian: + name
+        Librarian: + get_user_info()
+    
+    class Library
+        Library: + name
+        Library: + books
+        Library: + users
+
+        Library: + add_book(book Book)
+        Library: + register_user(user User)
+        Library: + find_book(title str)
+    
+    class Book
+        Book: + title
+        Book: + author
+        Book: - isbn
+        Book: + is_available
+    
+    Member ..> User
+    Librarian ..> User
+    User ..> Book
+    User ..o Library
+    Book --o Library
+
