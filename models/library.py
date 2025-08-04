@@ -19,11 +19,3 @@ class Library:
             if title == book.title:
                 return book
         return None
-
-
-new_book = Book("Deep dive into design patterns", "John Doe", "10293dsa9834")
-new_user = Member("Leykun")
-
-new_library = Library("New_Library")
-
-new_library.add_book(new_book)
