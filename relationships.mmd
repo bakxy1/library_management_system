@@ -1,5 +1,5 @@
 classDiagram
-    direction LR
+    %% direction LR
     class User
     <<interface>> User
         User: + name
@@ -29,6 +29,11 @@ classDiagram
         Library: + register_user(user User)
         Library: + find_book(title str)
     
+    class LibraryService
+        LibraryService: + library
+        LibraryService: + checkout_book(user User, title str)
+        LibraryService: + return_book(user User, title str)
+    
     class Book
         Book: + title
         Book: + author
@@ -36,8 +41,14 @@ classDiagram
         Book: + is_available
     
     Member ..> User
+
     Librarian ..> User
+
     User ..> Book
     User ..o Library
+
     Book --o Library
+
+    Library --o LibraryService
+    LibraryService ..> User
 
