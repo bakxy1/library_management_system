@@ -1,0 +1,52 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "isbn": "978-0-00-000001-1"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "978-0-00-000002-8"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "isbn": "978-0-00-000003-5"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "978-0-00-000004-2"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "isbn": "978-0-00-000005-9"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "978-0-00-000006-6"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer’s Stone",
+    "author": "J.K. Rowling",
+    "isbn": "978-0-00-000007-3"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "isbn": "978-0-00-000008-0"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "isbn": "978-0-00-000009-7"
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "isbn": "978-0-00-000010-3"
+  }
+]
