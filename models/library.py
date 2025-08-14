@@ -1,5 +1,6 @@
 from models.book import Book
 from models.users import Librarian, Member, User
+from typing import Optional
 
 
 class Library:
@@ -14,7 +15,7 @@ class Library:
     def register_user(self, user: User) -> None:
         self.users.append(user)
 
-    def find_book(self, title: str) -> Book | None:
+    def find_book(self, title: str) -> Optional[Book]:
         for book in self.books:
             if title == book.title:
                 return book
