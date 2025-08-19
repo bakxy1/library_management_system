@@ -1,52 +1,122 @@
 [
   {
+    "book_id": "B001",
+    "isbn": "978-0-7432-7356-5",
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "isbn": "978-0-00-000001-1"
+    "genre": "Fiction",
+    "publisher": "J.B. Lippincott & Co.",
+    "year": 1960,
+    "copies": 5,
+    "available": 3,
+    "status": "Available"
   },
   {
+    "book_id": "B002",
+    "isbn": "978-0-452-28423-4",
     "title": "1984",
     "author": "George Orwell",
-    "isbn": "978-0-00-000002-8"
+    "genre": "Dystopian Fiction",
+    "publisher": "Secker & Warburg",
+    "year": 1949,
+    "copies": 8,
+    "available": 0,
+    "status": "Out of Stock"
   },
   {
+    "book_id": "B003",
+    "isbn": "978-0-00-000003-5",
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "isbn": "978-0-00-000003-5"
+    "genre": "Romance",
+    "publisher": "T. Egerton",
+    "year": 1813,
+    "copies": 10,
+    "available": 7,
+    "status": "Available"
   },
   {
+    "book_id": "B004",
+    "isbn": "978-0-00-000004-2",
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "isbn": "978-0-00-000004-2"
+    "genre": "Fiction",
+    "publisher": "Charles Scribner's Sons",
+    "year": 1925,
+    "copies": 6,
+    "available": 2,
+    "status": "Available"
   },
   {
+    "book_id": "B005",
+    "isbn": "978-0-00-000005-9",
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "isbn": "978-0-00-000005-9"
+    "genre": "Fiction",
+    "publisher": "Little, Brown and Company",
+    "year": 1951,
+    "copies": 4,
+    "available": 1,
+    "status": "Available"
   },
   {
+    "book_id": "B006",
+    "isbn": "978-0-00-000006-6",
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "isbn": "978-0-00-000006-6"
+    "genre": "Fantasy",
+    "publisher": "George Allen & Unwin",
+    "year": 1937,
+    "copies": 12,
+    "available": 10,
+    "status": "Available"
   },
   {
+    "book_id": "B007",
+    "isbn": "978-0-00-000007-3",
     "title": "Harry Potter and the Sorcerer’s Stone",
     "author": "J.K. Rowling",
-    "isbn": "978-0-00-000007-3"
+    "genre": "Fantasy",
+    "publisher": "Bloomsbury",
+    "year": 1997,
+    "copies": 15,
+    "available": 5,
+    "status": "Available"
   },
   {
+    "book_id": "B008",
+    "isbn": "978-0-00-000008-0",
     "title": "The Lord of the Rings",
     "author": "J.R.R. Tolkien",
-    "isbn": "978-0-00-000008-0"
+    "genre": "Fantasy",
+    "publisher": "George Allen & Unwin",
+    "year": 1954,
+    "copies": 10,
+    "available": 0,
+    "status": "Out of Stock"
   },
   {
+    "book_id": "B009",
+    "isbn": "978-0-00-000009-7",
     "title": "The Alchemist",
     "author": "Paulo Coelho",
-    "isbn": "978-0-00-000009-7"
+    "genre": "Adventure",
+    "publisher": "HarperCollins",
+    "year": 1988,
+    "copies": 8,
+    "available": 6,
+    "status": "Available"
   },
   {
+    "book_id": "B010",
+    "isbn": "978-0-00-000010-3",
     "title": "The Book Thief",
     "author": "Markus Zusak",
-    "isbn": "978-0-00-000010-3"
+    "genre": "Historical Fiction",
+    "publisher": "Picador",
+    "year": 2005,
+    "copies": 7,
+    "available": 3,
+    "status": "Available"
   }
 ]
