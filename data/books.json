@@ -1,6 +1,5 @@
 [
   {
-    "book_id": "B001",
     "isbn": "978-0-7432-7356-5",
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
@@ -12,7 +11,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B002",
     "isbn": "978-0-452-28423-4",
     "title": "1984",
     "author": "George Orwell",
@@ -24,7 +22,6 @@
     "status": "Out of Stock"
   },
   {
-    "book_id": "B003",
     "isbn": "978-0-00-000003-5",
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
@@ -36,7 +33,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B004",
     "isbn": "978-0-00-000004-2",
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
@@ -48,7 +44,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B005",
     "isbn": "978-0-00-000005-9",
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
@@ -60,7 +55,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B006",
     "isbn": "978-0-00-000006-6",
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
@@ -72,7 +66,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B007",
     "isbn": "978-0-00-000007-3",
     "title": "Harry Potter and the Sorcerer’s Stone",
     "author": "J.K. Rowling",
@@ -84,7 +77,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B008",
     "isbn": "978-0-00-000008-0",
     "title": "The Lord of the Rings",
     "author": "J.R.R. Tolkien",
@@ -96,7 +88,6 @@
     "status": "Out of Stock"
   },
   {
-    "book_id": "B009",
     "isbn": "978-0-00-000009-7",
     "title": "The Alchemist",
     "author": "Paulo Coelho",
@@ -108,7 +99,6 @@
     "status": "Available"
   },
   {
-    "book_id": "B010",
     "isbn": "978-0-00-000010-3",
     "title": "The Book Thief",
     "author": "Markus Zusak",
