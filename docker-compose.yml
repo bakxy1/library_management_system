@@ -1,4 +1,18 @@
 services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+
   mysql:
     image: mysql:8.0 # Official MySQL image
     container_name: mysql-container
